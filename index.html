@@ -1,129 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Launcher Update News</title>
+    <title>Minecraft Launcher &mdash; Nyheder</title>
     <style type="text/css">
-        body {
-            font-family: sans-serif;
-            background-color: #222222;
-            color: #e0d0d0;
-        }
-        a {
-            color: #aaaaff;
-        }
-        h3 {
-            font-size: 16px;
-        }
+    body {
+        font-family: sans-serif;
+        background-color: #222222;
+        color: #e0d0d0;
+    }
+    a {
+        color: #aaaaff;
+        text-decoration:  none;
+    }
+    a:hover {
+        text-decoration:  none;
+    }
+    .container {
+        width: 100%;
+    }
+    .container .left {
+        float: left;
+    }
+    .container .right {
+        float: right;
+    }
+    .container .posts h3 {
+        font-size: 16px;
+    }
+    .container .posts p {
+        font-family: 'Times New Roman';
+        font-size: 12px;
+    }
     </style>
 </head>
+<body>
 
-<body class="">
-    <table width="100%">
-        <tbody>
-            <tr>
-                <td>
-                    <h1>Launcher Update News</h1>
-                </td>
-                <td align="right">
-                    <a href="https://github.com/denniskamp/">
-                        <font size="-2" color="#00ffff">denniskamp GitHub</font>
-                    </a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container">
+
+        <div class="left">
+            <h1>Minecraft Launcher Nyheder</h1>
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/denniskamp" style="font-size:10px;color:#00ffff">denniskamp Github</a>
+        </div>
+
+    </div>
 
     <div class="container">
         <div id="posts">
-            <div class="post text">
-                <h3><a href="https://github.com/denniskamp/minecraft-launcher/releases/tag/0.0.0.2">
-                        Launcher 0.0.0.2 Pre-Released
-                    </a></h3>
-                <p>BUg fix for 1.17+</p>
-                <p>* Fix again inherits for 1.17+
-                </p>
+            <div class="post">
+                <h3><a href="https://github.com/denniskamp/minecraft-launcher/releases/tag/0.0.0.2-pre">Minecraft Launcher 0.0.0.2 Pre-Release</a></h3>
+                <p>Fejlrettelse til 1.17+</p>
+                <p>* Rettelse arver fra 1.17+</p>
             </div>
-
-            <div class="post text">
-                <h3><a href="https://github.com/denniskamp/minecraft-launcher/releases/tag/1.1.1.37987">
-                        Launcher 1.1.1.37987 Released
-                    </a></h3>
-                <p>Fixes, fixes and more fixes</p>
-                <p>* Fix omitting custom java location and always downloading/checking for java download/update
-                    <br />* Fixed Java not reading the version on 1.17 when inheritsFrom was used
-                    <br />* Added Splashscreen
-                    <br />* Changed default messagebox from startup updater to telerik messagebox
-                    <br />* Fix for null at versions tab for assets index
-                    <br />* Fix for language not changing correctly
-                    <br />* Added File dialog to put other java exe location
-                    <br />* Some fixes and improvements
-                </p>
-            </div>
-
-            <div class="post text">
-                <h3><a href="https://github.com/denniskamp/minecraft-launcher/releases/tag/1.1.0.35923">
-                        Launcher 1.1.0.35923 Released
-                    </a></h3>
-                <p>More Fixes and Minecraft 1.17 Support!</p>
-                <p>* Better way to download Java versions
-                    <br />* Minecraft 1.17 support
-                    <br />* Will auto download Java 16 for 1.17+ and Java 8 for prior 1.17 versions
-                    <br />* Updated TelerikUI
-                    <br />* and Some small fixes and improvements
-                </p>
-            </div>
-
-            <div class="post text">
-                <h3><a href="https://github.com/denniskamp/minecraft-launcher/releases/tag/1.0.5.30383">
-                        Launcher 1.0.5.30383 Released
-                    </a></h3>
-                <p>Lots of Fixes and improvements</p>
-                <p>* Language updater is now a bit better
-                    <br />* Better News page
-                    <br />* Updated Internal Libraries
-                    <br />* Fixed Windows 7 not being able to open the launcher and sometimes getting stuck while trying
-                    to open
-                    <br />* Better way to download updated instead of multiple txt files is now a single xml file
-                    <br />* Updated Telerik UI stuff
-                    <br />* Fixed manual offline mode
-                    <br />* Added local java instead of the only way to have it installed
-                    <br />* Added java updater and downloader
-                    <br />* Added Check when a language file is missing so instead of error will just download it and
-                    reopen the launcher
-                    <br />* Changed default behavior for selection language at first open
-                    <br />* and Some small fixes and improvements
-                </p>
-            </div>
-
-            <div class="post text">
-                <h3><a href="https://github.com/denniskamp/minecraft-launcher/releases/tag/1.0.4.23644">
-                        Launcher 1.0.4.23644 Released
-                    </a></h3>
-                <p>Fixes and more</p>
-                <p>* Added language updater(only en_uk for now)
-                    <br />* Updated lapiz block texture
-                    <br />* Re-enabled the ability to turn off auto updater
-                    <br />* Fixed argumentoutofrangeexception from logs
-                    <br />* Moved Languages location from Launcher-langs\en_UK\lang.json to Launcher-langs\en_UK.json
-                </p>
-            </div>
-
-            <div class="post text">
-                <h3><a href="https://github.com/denniskamp/minecraft-launcher/releases/tag/1.0.3.20642">
-                        Launcher 1.0.3.20642 Released
-                    </a></h3>
-                <p>Bug fix</p>
-                <p>* Fixed profile for minecraft version 1.2 and below where arguments where wrong</p>
-            </div>
-
-            <div class="post text">
-                <h3><a href="https://github.com/denniskamp/minecraft-launcher/releases/tag/1.0.2.40145">
-                        Launcher 1.0.2.40145 Released
-                    </a></h3>
-                <p>public release v1.0.2.40145</p>
+            <div class="post">
+                <h3><a href="https://github.com/denniskamp/minecraft-launcher/releases/tag/0.0.0.1">Minecraft Launcher 0.0.0.1</a></h3>
+                <p>Tekst...</p>
             </div>
         </div>
     </div>
-</body>
 
+</body>
 </html>
