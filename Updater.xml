@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Launcher>
+    <version>0.0.0.1</version>
+    <DownloadUrl>https://github.com/denniskamp/minecraft-launcher/releases/download/0.0.0.1/Launcher.exe</DownloadUrl>
+    <Languages>
+        <da_DK>
+            <SHA384>92D992CD7CEFC9E7186264C9EC6182B6A3CD2F6D4FA75AD8F1B28CF8EEFFF50EA45230AD9417061A2A310D36A999B3D1</SHA384>
+            <DownloadUrl>https://raw.githubusercontent.com/denniskamp/minecraft-launcher/master/langs/da_DK.json</DownloadUrl>
+        </da_DK>
+        <en_US>
+            <SHA384>4FC3096CC7B8F01CE2AB2E6E03322070AAC05C2940C73523F07151502A1C572DD6E81757699BF170D5F334020FDEAD77</SHA384>
+            <DownloadUrl>https://raw.githubusercontent.com/denniskamp/minecraft-launcher/master/langs/en_US.json</DownloadUrl>
+        </en_US>
+    </Languages>
+    <Java>
+        <Version32bit>
+            <Java8>
+                <Version>1.8.0_241</Version>
+                <DownloadUrl>https://github.com/denniskamp/minecraft-launcher/raw/gh-pages/Java8_32bit.zip</DownloadUrl>
+            </Java8>
+            <Java16>
+                <Version>16.0.1</Version>
+                <DownloadUrl>https://github.com/denniskamp/minecraft-launcher/raw/gh-pages/Java16_32bit.zip</DownloadUrl>
+            </Java16>
+        </Version32bit>
+        <Version64bit>
+            <Java8>
+                <Version>1.8.0_241</Version>
+                <DownloadUrl>https://github.com/denniskamp/minecraft-launcher/raw/gh-pages/Java8_64bit.zip</DownloadUrl>
+            </Java8>
+            <Java16>
+                <Version>16.0.1</Version>
+                <DownloadUrl>https://github.com/denniskamp/minecraft-launcher/raw/gh-pages/Java16_64bit.zip</DownloadUrl>
+            </Java16>
+        </Version64bit>
+    </Java>
+</Launcher>
