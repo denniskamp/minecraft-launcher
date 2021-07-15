@@ -15,19 +15,37 @@
     a:hover {
         text-decoration:  none;
     }
-    .container {
+
+    div.container {
         width: 100%;
+        min-width: 100%;
     }
-    .container .left {
+
+    section.header {
+        width: 100%;
+        min-width: 100%;
+    }
+    section.header .left {
+        position: relative;
         float: left;
     }
-    .container .right {
+    section.header .right {
+        position: relative;
         float: right;
     }
-    .container .posts h3 {
+
+    section.changelog {
+        width: 100%;
+        min-width: 100%;
+    }
+    section.changelog .post {
+        width: 100%;
+        min-width: 100%;
+    }
+    section.changelog .post h3 {
         font-size: 16px;
     }
-    .container .posts p {
+    section.changelog .post p {
         font-family: 'Times New Roman';
         font-size: 12px;
     }
@@ -37,18 +55,16 @@
 
     <div class="container">
 
-        <div class="left">
-            <h1>Minecraft Launcher Nyheder</h1>
-        </div>
+        <section class="header">
+            <div class="left">
+                <h1>Minecraft Launcher Nyheder</h1>
+            </div>
+            <div class="right">
+                <a href="https://github.com/denniskamp" style="font-size:10px;color:#00ffff">denniskamp Github</a>
+            </div>
+        </section>
 
-        <div class="right">
-            <a href="https://github.com/denniskamp" style="font-size:10px;color:#00ffff">denniskamp Github</a>
-        </div>
-
-    </div>
-
-    <div class="container">
-        <div id="posts">
+        <section class="changelog">
             <div class="post">
                 <h3><a href="https://github.com/denniskamp/minecraft-launcher/releases/tag/0.0.0.2-pre">Minecraft Launcher 0.0.0.2 Pre-Release</a></h3>
                 <p>Fejlrettelse til 1.17+</p>
@@ -58,7 +74,8 @@
                 <h3><a href="https://github.com/denniskamp/minecraft-launcher/releases/tag/0.0.0.1">Minecraft Launcher 0.0.0.1</a></h3>
                 <p>Tekst...</p>
             </div>
-        </div>
+        </section>
+
     </div>
 
 </body>
